@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link type="image/png" sizes="16x16" rel="icon" href="Image/icons8-paralelo-80.png">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#"> Paraveraz </a>
+            </div>
+
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()"> Inicio</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()"> Sobre Mi</a></li>
+                    <li><a href="#skills" onclick="seleccionar()"> Skills</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()"> Hoja de Vida</a></li>
+                    <li><a href="#portafolio" onclick="seleccionar()"> Portafolio</a></li>
+                    <li>
+                        <a href="https://acortar.link/vFqv2k" onclick="seleccionar()" target="_blank"> Contacto <i
+                                class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class=" fa-solid fa-bars "></i>
+            </div>
+        </header>
+    </div>
+
+    <!--Seccion Inicio-->
+    <section id="inicio" class=" inicio ">
+        <div class=" contenido-banner ">
+            <div class=" contenedor-img ">
+                <img src=" Image/foto.png " alt=" ">
+            </div>
+            <h1>Juan Cardona</h1>
+            <h2>Desarrollador de software</h2>
+            <div class=" redes ">
+                <a href="https://www.facebook.com/JuanseCardona9607" target="_blank"><i
+                        class=" fa-brands fa-facebook "></i></a>
+                <a href="https://twitter.com/jcardser" target="_blank"><i class=" fa-brands fa-twitter "></i></a>
+                <a href="https://www.instagram.com/jcardser/?hl=es-la" target="_blank"><i
+                        class=" fa-brands fa-instagram "></i></a>
+                <a href="https://www.linkedin.com/in/juan-sebastian-cardona-serna-813205197/" target="_blank"><i
+                        class=" fa-brands fa-linkedin "></i></a>
+                <!--<a href=""><i class=" fa-solid fa-rss "></i></a>-->
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Sobre Mi-->
+    <section id="sobremi" class="sobremi">
+        <div class=" contenido-seccion ">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Juan Cardona</span> Soy un apasionado y competente profesional en el campo de la informática, especializado en desarrollo de software. Con una sólida formación académica y experiencia práctica, poseo habilidades avanzadas en
+                programación y resolución de problemas. Mi enfoque se centra en diseñar y desarrollar soluciones de software innovadoras, asegurando una alta calidad y eficiencia en cada proyecto. Soy proactivo, aprendo rápidamente y disfruto trabajar
+                en equipo, colaborando para alcanzar los objetivos de manera efectiva y eficiente. Busco constantemente expandir mis conocimientos y habilidades para mantenerme al tanto de las últimas tendencias y tecnologías en el campo de la tecnología
+                de la información. Mi objetivo es contribuir al éxito de los proyectos y equipos en los que participe, brindando soluciones técnicas que cumplan con las expectativas y necesidades del cliente.
+            </p>
+            <div class=" fila ">
+                <!--datos personales-->
+                <div class=" col ">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong> 15-07-1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong> 3044143038
+                        </li>
+                        <li>
+                            <strong>E-mail</strong> jcardser@gmail.com
+                        </li>
+                        <li>
+                            <strong>WebSite</strong> www.juancardona.com
+                        </li>
+                        <li>
+                            <strong>Dirección</strong> Cra 24 a # 37-30 Villa Hermosa - Colombia
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>Desarrollador Web</span>
+                        </li>
+                    </ul>
+                </div>
+                <!--intereses-->
+                <div class=" col ">
+                    <h3>Intereses</h3>
+                    <div class=" contenedor-intereses ">
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-plane "></i>
+                            <span>Viajar</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-music "></i>
+                            <span>Musica</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-film "></i>
+                            <span>Cine</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-person-hiking "></i>
+                            <span>Caminar</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-person-swimming "></i>
+                            <span>Nadar</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-dog "></i>
+                            <span>Animales</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-motorcycle "></i>
+                            <span>Motos</span>
+                        </div>
+                        <div class=" intereses ">
+                            <i class=" fa-solid fa-camera-retro "></i>
+                            <span>Fotos</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <button id="Download" class="Download"> <a href="Juan_Sebastian_Cardona_Serna_Hoja_De_Vida.pdf">Descargar Hoja de Vida <i class=" fa-solid fa-download "></i></a>
+                
+                <span class=" overlay "></span>
+            </button>
+        </div>
+    </section>
+
+    <!--Seccion Skils-->
+    <section class="skills" id="skills">
+        <div class=" contenido-seccion ">
+            <h2>Skills</h2>
+            <div class=" fila ">
+                <!--Tecnical Skills-->
+                <div class=" col ">
+                    <h3>Technical Skills</h3>
+                    <div class=" skill ">
+                        <span>JavaScript</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso javascript ">
+                                <span>57%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>HTML & CSS</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso htmlcss ">
+                                <span>77%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>C#</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso c ">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Python</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso Python ">
+                                <span>47%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Java</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso java ">
+                                <span>57%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>SQL</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso sql ">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Bootstrap</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso bootstrap ">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Profesional Skills-->
+                <div class=" col ">
+                    <h3>Professional Skills</h3>
+                    <div class=" skill ">
+                        <span>Comunicación</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso comuniacion ">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Trabajo en equipo</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso trabajo ">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Creatividad</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso creatividad ">
+                                <span>77%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Dedicación</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso dedicacion ">
+                                <span>100%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Proyect Management</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso proyect ">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Escucha Activa</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso escucha ">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" skill ">
+                        <span>Compromiso</span>
+                        <div class=" barraskill ">
+                            <div class=" progreso compromiso ">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion hoja de vida-->
+
+    <section id="curriculum" class="curriculum">
+        <div class=" contenido-seccion ">
+            <h2>Curriculum</h2>
+            <div class=" fila ">
+                <div class=" col izquierda ">
+                    <h3>Educación</h3>
+                    <div class=" item izq ">
+                        <h4>Técnico en sistemas</h4>
+                        <span class=" casa ">Servicio Nacional de Apendizaje - SENA</span>
+                        <span class=" fecha ">2012 - 2013</span>
+                        <p>Formación como personal calificado en las áreas de redes sociales, mantenimiento de equipos de cómputo y redes de computadores, donde se ha detectado que las empresas requieren soporte básico en el día a día de su operación.</p>
+                        <div class=" conectori ">
+                            <div class=" circuloi "></div>
+                        </div>
+                    </div>
+                    <div class=" item izq ">
+                        <h4>Diseño & desarrollo de macros en excel</h4>
+                        <span class=" casa ">COMFAMA</span>
+                        <span class=" fecha ">2018 - 2018</span>
+                        <p>Desarrollador de Macros en Excel con experiencia en la creación, implementación y optimización de macros utilizando VBA. Experto en automatización de tareas, mejora de procesos y desarrollo de soluciones personalizadas en Excel.
+                            Habilidad para diagnosticar problemas, depurar código y ofrecer soporte técnico. Excelentes habilidades analíticas y capacidad para trabajar en equipo. Comprometido con mantenerse actualizado en las últimas técnicas de desarrollo
+                            de macros en Excel.</p>
+                        <div class=" conectori ">
+                            <div class=" circuloi "></div>
+                        </div>
+                    </div>
+                    <div class=" item izq ">
+                        <h4>Analisis de datos con PBI</h4>
+                        <span class=" casa ">Platzi</span>
+                        <span class=" fecha ">2023 - 2023</span>
+                        <p>Analista de Datos en Power BI con experiencia en la interpretación y análisis de información para la generación de informes y visualizaciones efectivas. Experto en el manejo de Power BI para la creación de paneles interactivos,
+                            modelado de datos y creación de consultas. Habilidad para identificar patrones, tendencias y generar insights a partir de conjuntos de datos complejos. Capacidad demostrada para trabajar con equipos multidisciplinarios y comunicar
+                            hallazgos de manera clara y efectiva. Orientado a resultados y actualizado en las últimas técnicas y herramientas de análisis de datos en Power BI.</p>
+                        <div class=" conectori ">
+                            <div class=" circuloi "></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" col derecha ">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class=" item der ">
+                        <h4>Analista Workforce</h4>
+                        <span class=" casa ">Emtelco</span>
+                        <span class=" fecha ">2017 - 2023</span>
+                        <p>Especialista en Análisis de Datos para Optimización de Recursos en Call Center. Experiencia en análisis detallado de datos para mejorar la eficiencia operativa, dimensionar recursos, y maximizar el rendimiento en entornos de centros
+                            de llamadas. Habilidad probada en identificar oportunidades de mejora, reducir costos operativos y mejorar la experiencia del cliente mediante el uso de análisis de datos y métricas clave.</p>
+                        <div class=" conectord ">
+                            <div class=" circulod "></div>
+                        </div>
+                    </div>
+                    <div class=" item der ">
+                        <h4>FreeLacer Developer</h4>
+                        <span class=" casa "> N/A</span>
+                        <span class=" fecha "> N/A </span>
+                        <p>
+                            Desarrollador Freelance con enfoque en la creación de soluciones personalizadas para clientes. Especializado en el desarrollo de software a medida y aplicaciones web. Experiencia en la colaboración con clientes para comprender sus necesidades y ofrecer
+                            soluciones tecnológicas adaptadas. Capacidad demostrada para trabajar de manera independiente, cumplir plazos y entregar proyectos de calidad que satisfagan las expectativas del cliente.</p>
+                        <div class=" conectord ">
+                            <div class=" circulod "></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección Portafolio-->
+    <section id="portafolio" class="portafolio">
+        <div class=" contenido-secciom ">
+            <h2>Portafolio</h2>
+            <div class=" galeria ">
+                <div class=" proyecto ">
+                    <img src=" Image/Proyecto.png " alt=" ">
+                    <div class=" overlay ">
+                        <h3>Pets Helper</h3>
+                        <p>Diseño Web - Colaboración</p>
+                    </div>
+                </div>
+                <div class=" proyecto ">
+                    <img src=" Image/Proyecto.png " alt=" ">
+                    <div class=" overlay ">
+                        <h3>To Do List</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+                <div class=" proyecto ">
+                    <img src=" Image/Proyecto.png " alt=" ">
+                    <div class=" overlay ">
+                        <h3>EmpathyWeb</h3>
+                        <p>Diseño Web</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+
+        <div class=" redes ">
+            <a href="https://www.facebook.com/JuanseCardona9607" target="_blank"><i
+                        class=" fa-brands fa-facebook "></i></a>
+            <a href="https://twitter.com/jcardser" target="_blank"><i class=" fa-brands fa-twitter "></i></a>
+            <a href="https://www.instagram.com/jcardser/?hl=es-la" target="_blank"><i
+                        class=" fa-brands fa-instagram "></i></a>
+            <a href="https://www.linkedin.com/in/juan-sebastian-cardona-serna-813205197/" target="_blank"><i
+                        class=" fa-brands fa-linkedin "></i></a>
+            <!--<a href=""><i class=" fa-solid fa-rss "></i></a>-->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
